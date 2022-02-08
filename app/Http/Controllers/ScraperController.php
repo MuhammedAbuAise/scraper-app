@@ -76,6 +76,13 @@ class ScraperController extends Controller
         ]);
     }
 
+    /**
+     * Update point value by id
+     *
+     * @param int $id
+     * @param Request $request
+     * @return JsonResponse
+     */
     public function update(int $id, Request $request): JsonResponse
     {
         try {
